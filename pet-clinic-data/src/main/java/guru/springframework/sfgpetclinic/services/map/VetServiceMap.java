@@ -1,4 +1,6 @@
 package guru.springframework.sfgpetclinic.services.map;
 
-public class VetServiceMap {
+import guru.springframework.sfgpetclinic.model.Vet;
+
+public class VetServiceMap extends  AbstractMapService<Vet, Long> {
 }
